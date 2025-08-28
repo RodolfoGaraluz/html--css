@@ -1,2 +1,2 @@
-Os dados foram enviados!
-Aprenda PHP para saber o que fazer com eles
+Passagens compradas com sucesso!
+Boa viagem e uma ótima vida como programadores no exterior.
