@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgba(255, 255, 0, 0.503);
+}
+header {
+    background-image: linear-gradient(to bottom, yellow, rgb(242, 242, 57));
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 35px;
+    
+}
+article {
+    background-color: yellow;
+    height: 150vh;
+    border-radius: 5px;
+    margin: 50px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article > div {
+    height: 34vh;
+    width: 34vh;
+    border-radius: 10px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div > a{ 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    text-decoration: none;
+    color: rgba(167, 7, 220, 0.466);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    background-color: rgb(252, 254, 253);
+}
+
+div#original:hover{
+    background-color: rgb(129, 127, 127);
+}
+div#verde:hover{
+    background-color: green;
+}
+div#vermelho:hover{
+    background-color: red;
+}
+div#azul:hover{
+    background-color: blue;
+}
+div#laranja:hover{
+    background-color: orangered;
+}
+div#preto:hover{
+    background-color: black;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+}
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: yellow;
+    text-align: center;
+}
+footer > p > a{
+    text-decoration: underline;
+    color: black;
+}

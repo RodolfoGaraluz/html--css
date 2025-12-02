@@ -1,0 +1,81 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: rgb(104, 17, 17);
+}
+header {
+    background-image: linear-gradient(to bottom, rgb(121, 5, 5), red );
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+    padding: 35px;
+    
+}
+article {
+    background-color: red;
+    height: 150vh;
+    border-radius: 5px;
+    margin: 50px 10px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+article > div {
+   height: 34vh;
+    width: 34vh;
+    border-radius: 10px;
+    background-color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+div > a{ 
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+    text-decoration: none;
+    color: rgba(167, 7, 220, 0.466);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.3em;
+    background-color: rgb(252, 254, 253);
+}
+
+div#amarelo:hover{
+    background-color: yellow;
+}
+div#verde:hover{
+    background-color: green
+}
+div#original:hover{
+    background-color:rgb(129, 127, 127);
+}
+div#azul:hover{
+    background-color: blue;
+}
+div#laranja:hover{
+    background-color: orange;
+}
+div#preto:hover{
+    background-color: black;
+}
+
+footer > p{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    text-align: center;
+}
+footer > p > a{
+    text-decoration: underline;
+    color: black;
+}
